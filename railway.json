@@ -1,0 +1,11 @@
+{
+  "build": {
+    "env": {
+      "N8N_BASIC_AUTH_ACTIVE": "true",
+      "N8N_PORT": "5678"
+    }
+  },
+  "deploy": {
+    "startCommand": "n8n"
+  }
+}
